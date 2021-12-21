@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 5px;
+}
+div h1
+{
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+.about
+{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+footer
+{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+footer p 
+{
+    color: blanchedalmond;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}

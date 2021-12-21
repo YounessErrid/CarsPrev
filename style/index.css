@@ -1,0 +1,221 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    
+}
+body
+{
+    background-color: #E2E2E2;
+    animation: mymove 15s infinite;
+}
+@keyframes mymove {
+    0% {background-color:#E2E2E2;}
+    25% {background-color:rgb(251, 121, 117);}
+    50% {background-color:rgb(255, 251, 38);}
+    75% {background-color:grey;}
+    100% {background-color:#E2E2E2;}
+  }
+ul 
+{
+    list-style: none;
+}
+li
+{
+    display: inline-block;
+}
+.header
+{
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    
+}
+.header .nav-bar
+{
+    width: 90%;
+    height: 60px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+    align-items: center;
+
+}
+.header .nav-bar .logo
+{
+    margin-left: 10px;
+}
+.header .nav-bar .search
+{
+    cursor: pointer;
+
+}
+.header .nav-bar .logo img
+{
+    height: 20px;
+    cursor: pointer;
+}
+.header .nav-bar .menu ul li 
+{
+    margin-right: 30px;
+}
+.header .nav-bar .menu ul li a
+{
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 12px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: all 0.6s;
+    font-weight: bolder;
+    opacity: 0.7;
+    color: #000;
+    text-decoration: none;
+}
+.header .nav-bar .menu ul li a.active
+{
+    color: brown;
+    opacity: 1;
+}
+.header .nav-bar .menu ul li a:hover
+{
+    background-color:rgba(165, 42, 42, 0.315) ;
+    opacity: 1;
+    text-decoration:underline;
+}
+.presentation
+{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    float: left;
+
+}
+
+.presentation h3
+{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.presentation h1
+{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.para 
+{
+    width: 50%;
+    text-align: justify;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+#btn-shop
+{
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    background: brown;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+#btn-shop:hover
+{
+    font-weight: bold;
+    background:#b6b4b4;
+    color: brown;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cars
+{
+    float:right;
+    width: 50%;
+    
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.cars img {
+    position:absolute;
+    border-radius: 50%;
+}
+#car4
+{
+    animation: C4 15s infinite;
+    
+}
+@keyframes C4
+{
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+
+}
+#car2
+{
+    animation: C2 15s infinite;
+    
+}
+@keyframes C2
+{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 0;}
+
+}
+#car3
+{
+    animation: C3 15s infinite;
+    
+}
+@keyframes C3
+{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+    100% {opacity: 0;}
+
+}
+#car1
+{
+    animation: C1 15s infinite;
+    
+}
+@keyframes C1
+{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
+footer
+{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+footer p 
+{
+    color: blanchedalmond;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
